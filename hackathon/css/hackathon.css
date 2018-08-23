@@ -1,0 +1,518 @@
+@font-face{
+    font-family: ExodusDemo-Stencil;
+    src:url(ExodusDemo-Stencil.otf);
+}
+@font-face{
+    font-family: Montserrat-Light;
+    src:url(Montserrat-Light.otf);
+    }
+@font-face{
+    font-family: Montserrat-Regular;
+    src:url(Montserrat-Regular.otf);
+    }
+body{
+    width: 1280px;
+    background-color: #5d5c5e;
+}
+.upper{
+     height: 425px; 
+     width: 1280px;
+}
+.header{
+    position: relative;
+    margin-top: 41.8px;
+    margin-left: 50.4px;
+    background-color: #5d5c5e;
+}
+#logo{
+    width: 52px;
+    height: 51px;
+    object-fit: contain;
+}
+ul{
+    list-style-type: none;
+    position: relative;
+    margin-left: 445px;
+    margin-top: -28px;
+    /* width: 57px;
+  height: 19px; */
+  font-family: Montserrat-Bold;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal; 
+  /* letter-spacing: 2px;
+  /* text-align: left; */
+  color: #ffffff;
+}
+li{
+    display: inline;
+    padding: 35px;
+}
+.upper a{
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+}
+.upper a:hover{
+    /* text-decoration-line: underline; */
+    /* text-decoration-color:; */
+    border-bottom:4px solid  #2effb5;
+    /* text-decoration: solid; */
+    /* padding-top: 2px; */
+}
+#sign a:hover{
+    border-bottom: none;
+}
+
+#sign{
+    font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #2effb5;
+  border-radius: 100px;
+  border: solid 1px #2effb5;
+  width: 133.1px;
+  height: 45px;
+  padding: 15px !important;
+  margin-left: 50px;
+  
+}
+#hackathon_heading{
+    text-align: center;
+    font-family: ExodusDemo-Stencil;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 4.5px;
+  text-align: left;
+  color: #ffffff;
+  position: relative;
+  margin-left: 382px;
+  margin-top: 139px;
+}
+#hackathon_subtitle{
+    font-family: Montserrat-light;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 386px;
+  margin-top: -7px;
+}
+#click{
+    width: 176.8px;
+  height: 45px;
+  border-radius: 100px;
+  background-color: #2effb5;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #4a4a4a;
+  position: relative;
+  margin-left: 540px;
+  margin-top: 50px;
+}
+.rect2{
+    width: 1288px;
+    height: 593px;
+    background-color: #f2f2f2;
+    margin-left: -8px;
+}
+.rect2_text{
+    position: absolute;
+    margin-left: 372px;
+    margin-top: 50px;
+}
+#previous_hack{
+    font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 4px;
+  text-align: left;
+  color: #757575;
+  
+}
+#hackathon_subtitle2{
+    font-family: Montserrat-Light;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-align: left;
+  color: #757575;
+  margin-left: 19px;
+  width: 504px;
+  height: 17px
+}
+
+
+/* override position and transform in 3.3.x */
+.carousel-inner .item.left.active {
+    transform: translateX(-33%);
+  }
+  .carousel-inner .item.right.active {
+    transform: translateX(33%);
+  }
+  
+  .carousel-inner .item.next {
+    transform: translateX(33%)
+  }
+  .carousel-inner .item.prev {
+    transform: translateX(-33%)
+  }
+  
+  .carousel-inner .item.right,
+  .carousel-inner .item.left { 
+    transform: translateX(0);
+  }
+  
+  
+  .carousel-control.left,.carousel-control.right {background-image:none;}
+
+
+  .carousel_own{
+      position: relative;
+      margin-left: -619px;
+      margin-top: 66px;
+  }
+  .div{
+    width: 360px;
+    height: 370px;
+    background-color: white;
+}
+#green_background{
+    background-color: #2effb5;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 135px;
+    margin-top: 78px;
+    width: 90px;
+    height: 90px;
+    border: 1px solid #dddddd;
+    /* padding: 4px; */
+    border-radius: 50%;
+    border-spacing: 2px;
+}
+#image1{
+    position: relative;
+    margin-left: 146px;
+    margin-top: 93px;
+    width: 64px;
+    height: 68px;
+    object-fit: contain;
+    /* background-color: #2effb5;
+    border-radius: 50%; */
+    padding: 20px;
+    z-index: 10;
+}
+  
+  /* width: 90px;
+  height: 90px; */
+
+#lorem{
+    font-family: Montserrat;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #757575;
+  position: relative;
+  margin-top: 80px;
+  
+}
+#lorem_text{
+    width: 293px;
+    height: 88px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.57;
+  letter-spacing: 1.8px;
+  text-align: center;
+  color: #757575;
+  position: absolute;
+  margin-left: 28px;
+}
+/* .img_border{
+    background-color: #2effb5;
+   border-radius: 50%;
+   width: 90px;
+   height: 90px;
+} */
+.body_bottom{
+    height: 310px;
+    background-color: #ffffff;
+}
+#panel{
+    font-family: Montserrat;
+    width: 318px;
+    height: 39px;
+    font-size: 32px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #757575;
+    position: absolute;
+    margin-top: 52px;
+    margin-left: 481px; 
+}
+#panel_des{
+    width: 645px;
+    height: 17px;
+    font-family: Montserrat-Light;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #757575;
+    position: absolute;
+    margin-left: 323.5px;
+    margin-top: 100.9px;
+
+}
+.person1{
+    position: absolute;
+    margin-left: 44px;
+    margin-top: 175.3px;
+    width: 308.5px;
+}
+
+#person_image1{
+    width: 70px;
+  height: 70px;
+  object-fit: contain;
+  float: left;
+  margin-right: 19px;
+  border: 1px solid #dddddd;
+    padding: 4px;
+    border-radius: 50%;
+  /* position: relative;
+  margin-left: 44px;
+  margin-top: 177px; */
+}
+#person_text{
+   
+  height: 24px;
+  font-family: Montserrat-Regular;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.5px;
+  text-align: left;
+  color: #757575;
+  margin-top: 6px;
+  /* position: absolute;
+  margin-left: 15px;
+  margin-top: 182.6px; */
+}
+#person_role{
+  height: 22px;
+  font-family: Montserrat-light;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.57;
+  letter-spacing: 1.8px;
+  text-align: left;
+  color: #757575;
+  /* position: relative;
+  margin-left: 15px;
+  margin-top: 210.6px; */
+}
+.person2{
+    position: absolute;
+    margin-left: 352.5px;
+    margin-top: 175.3px;
+    width: 308.5px;
+}
+.person3{
+    position: absolute;
+    margin-left: 661.5px;
+    margin-top: 175.3px;
+    width: 308.5px;
+}
+.person4{
+    position: absolute;
+    margin-left: 971px;
+    margin-top: 175.3px;
+    width: 308.5px;
+}
+#line{
+    width: 1200px;
+  height: 2px;
+  border: solid 1px #dddddd;
+  background-color: #dddddd;
+  position: absolute;
+  margin-top: -20px !important;
+  margin-bottom: -20px !important;
+  margin-left: 40px;
+  /* because it is taking bootstrap properties */
+}
+.body_bottom2{
+    height: 222px;
+    background-color: #ffffff; 
+}
+.body_bottom2 p{
+    width: 549px;
+    height: 44px;
+    font-family: Montserrat-Light;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.57;
+    letter-spacing: 1.8px;
+    text-align: center;
+    color: #757575;
+    position: absolute;
+    margin-left: 365.5px;
+    margin-top: 52px;
+}
+#click2{
+    width: 176.8px;
+    height: 45px;
+    border-radius: 100px;
+    background-color: #2effb5;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #4a4a4a;
+    position: absolute;
+    margin-left: 581.4px;
+    margin-top: 144.9px;
+}
+.footer{
+    width: 1280px;
+  height: 285.4px;
+  background-color: #f9f9f9;
+}
+.section1{
+    width: 194.9px;
+    height: 100px;
+    position: absolute;
+    margin-left: 57.5px;
+    margin-top: 53.5px;
+}
+#section1_lorem{
+    width: 164px;
+  height: 24px;
+  font-family: Montserrat-Regular;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.5px;
+  text-align: left;
+  color: #757575;
+  /* padding-bottom:9.5px; */
+}
+#section1_text{
+    width: 194.9px;
+  height: 66px;
+  font-family: Montserrat-Light;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.57;
+  letter-spacing: 1.8px;
+  text-align: left;
+  color: #757575;
+}
+.section2{
+    width: 194.9px;
+    height: 100px;
+    position: absolute;
+    margin-left: 347px;
+    margin-top: 53.5px;
+}
+.section3{
+    width: 194.9px;
+    height: 100px;
+    position: absolute;
+    margin-left: 656px;
+    margin-top: 53.5px;
+}
+.section4{
+    width: 194.9px;
+    height: 100px;
+    position: absolute;
+    margin-left: 965px;
+    margin-top: 53.5px;
+}
+#bottom_line{
+    width: 1200px;
+  height: 2px;
+  border: solid 1px #dddddd;
+  background-color: #dddddd;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 208px;
+}
+#copyright{
+    font-family: FrutigerNextPro;
+  font-size: 10px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3f3f3f;
+  position: absolute;
+  margin-left: 35px;
+  margin-top:239.4px;
+}
+.social_media{
+    position: absolute;
+    margin-left: 1083px;
+    margin-top: 228.4px;
+}
+.icon_img{
+    width: 31px;
+    height: 30px;
+    object-fit: contain;
+}
